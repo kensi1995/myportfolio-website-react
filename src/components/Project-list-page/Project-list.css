@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.projectBackground {
+  width: 100%;
+  height: 100%;
+  background-color: #c50e5d;
+  background-image: linear-gradient(
+    43deg,
+    #c50e5d 0%,
+    #f8615a 50%,
+    #f2ce63 100%
+  );
+}
+
+.project-section {
+  position: relative !important;
+  padding-top: 10px !important;
+}
+
+.project-card {
+  padding-top: 20px;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+.card-text {
+  font-family: "Poppins";
+}
+
+.project-card-view {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+  color: #191919 !important;
+  background-color: transparent !important;
+  border: transparent;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border-radius: 15px;
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+.card-img-top {
+  padding: 20px !important;
+  opacity: 0.8 !important;
+  border-radius: 10px !important;
+}
+.viewbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-family: "Poppins";
+}
+
+.btn-primary {
+  color: #191919 !important;
+  background-color: transparent !important;
+  border-color: #191919 !important;
+}
+
+.btn-primary:hover {
+  color: #e8e8e8 !important;
+  background-color: transparent !important;
+  border-color: #e8e8e8 !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+  .project-section {
+    padding-top: 40px !important;
+  }
+}

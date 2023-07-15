@@ -1,0 +1,70 @@
+.aboutPage {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #c50e5d;
+  background-image: linear-gradient(
+    43deg,
+    #c50e5d 0%,
+    #f8615a 50%,
+    #f2ce63 100%
+  );
+  padding-top: 110px;
+}
+.textBackground {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+.aboutMeText {
+  text-align: left;
+  font-size: 2em !important;
+  color: #191919 !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.aboutMeDetails {
+  text-align: left;
+  font-size: 1.1em !important;
+  font-family: "Poppins";
+}
+.skillsList {
+  font-weight: 600;
+  list-style-type: none;
+  font-family: "Poppins";
+}
+.skillsList li {
+  letter-spacing: 1px;
+  font-family: "Poppins";
+}
+
+.skillsList li:hover {
+  transform: scale(1.05);
+  transition: 5ms;
+  color: #e8e8e8;
+}
+
+.webImage {
+  max-width: 500px;
+  height: 350px;
+  background-image: url(../../assets/aboutMe.png);
+  background-size: cover;
+  background-position: center;
+}
+.text-align {
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .aboutPage {
+    width: 100%;
+    height: 100%;
+  }
+  .textBackground {
+    display: block;
+    margin: 0 auto;
+  }
+}

@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body {
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  cursor: none;
+}
+#no-scroll {
+  overflow: hidden;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: #f8615a;
+  background-image: url(../src/assets/image.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#preloader-none {
+  opacity: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ea1270;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8e0b44;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.911);
+  border-radius: 12px;
+}
+
+.cursor {
+  background-color: #191919;
+  opacity: 0.6;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 767px) {
+  .cursor {
+    display: none;
   }
 }
