@@ -6,7 +6,7 @@ function Text() {
   return (
     <TypewriterComponent
       options={{
-        strings: ["React developer", "Front end developer"],
+        strings: ["Front end developer"],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

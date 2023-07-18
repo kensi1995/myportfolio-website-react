@@ -18,10 +18,22 @@ function HomePage() {
             <span></span>
             <Text />
             <div className="icon-btns">
-              <button onClick={() => {}} className="socialmediabtn">
+              <button
+                onClick={() => {
+                  window.open("https://github.com/kensi1995");
+                }}
+                className="socialmediabtn"
+              >
                 <AiFillGithub className="icon" />
               </button>
-              <button onClick={() => {}} className="socialmediabtn">
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/in/kenan-novalic-3bba5a240/"
+                  );
+                }}
+                className="socialmediabtn"
+              >
                 <FaLinkedinIn className="icon" />
               </button>
             </div>
