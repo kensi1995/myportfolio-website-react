@@ -74,7 +74,7 @@ function Header() {
             className="resumebtn"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1-iC8IRMwNjE-yaUfRtg4rg-KRH-Q0FFm/view?usp=sharing"
+                "https://drive.google.com/file/d/1ljhtHyr6geb50kTiR9us7H9j7y2xVtEk/view?usp=sharing"
               );
             }}
           >
